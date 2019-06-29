@@ -15,7 +15,7 @@ import { PostsModule } from './posts/posts.module'
     TypeOrmModule.forRoot({
       type: 'mongodb',
       url:
-        'your mongoDB server link',
+        'your-mongoDB-server-link-here',
       entities: [join(__dirname, '**/**.entity{.ts,.js}')],
       synchronize: true,
       useNewUrlParser: true
